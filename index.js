@@ -15,7 +15,7 @@ async function pegarConselho() {
 async function gerarConselho(){
     const conselho = await pegarConselho();
     idConselho.innerText = `ADVICE #${conselho.slip.id}`;
-    descricaoDoConselho.innerText = conselho.slip.advice;
+    descricaoDoConselho.innerText = `"conselho.slip.advice"`;
 }
 
 gerarConselho();
