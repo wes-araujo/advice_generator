@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  background-color: var(--cor-de-fundo);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--cor-do-card);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 450px;
+}
+
+.card .titulo {
+  color: var(--cor-do-botao-card);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.card .frase {
+  font-size: 23px;
+  padding: 23px;
+  text-align: center;
+  color: var(--cor-do-texto);
+}
+
+.card picture img {
+  width: 100%;
+}
+
+.card .botao {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--cor-do-botao-card);
+  transform: translateY(85%);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card .botao:hover {
+  cursor: pointer;
+}
+
+.card .botao:active {
+  color: var(--cor-do-botao-card);
+  cursor: pointer;
+  box-shadow: 0 5px 15px var(--cor-do-botao-card);
+  transform: translateY(calc(85% + 3px));
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 380px;
+  }
+}

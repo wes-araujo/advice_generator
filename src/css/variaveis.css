@@ -1,0 +1,41 @@
+:root {
+    --cor-de-fundo: hsl(218, 23%, 16%);
+    --cor-do-card: hsl(217, 19%, 24%);
+    --cor-do-texto: hsl(193, 38%, 86%);
+    --cor-do-botao-card: hsl(150, 100%, 66%);
+}
+
+/* :root{
+    --cor-de-fundo: #3674B5;
+    --cor-do-card:  #578FCA;
+    --cor-do-texto: #A1E3F9;
+    --cor-do-botao-card:#D1F8EF;
+} */
+
+/* :root{
+    --cor-de-fundo: #001F3F;
+    --cor-do-card:  #3A6D8C;
+    --cor-do-texto: #6A9AB0;
+    --cor-do-botao-card:#EAD8B1; 
+}  */
+
+/* :root{
+    --cor-de-fundo: #001F3F;
+    --cor-do-card:  #134B70;
+    --cor-do-texto: #508C9B;
+    --cor-do-botao-card:#EEEEEE;
+} */
+
+/* :root{
+    --cor-de-fundo: #222831;
+    --cor-do-card:  #393E46;
+    --cor-do-texto: #DFD0B8;
+    --cor-do-botao-card:#948979;
+} */
+ 
+/* :root{
+    --cor-de-fundo: #2C3930;
+    --cor-do-card:  #3F4F44;
+    --cor-do-texto: #DCD7C9;
+    --cor-do-botao-card:#A27B5C;
+} */
